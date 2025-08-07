@@ -8,15 +8,17 @@ public class Player_Controls : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        player_collider = this.GetComponent<CapsuleCollider2D>();
     }
 
     void Update()
     {
         X_Move();
         Jump();
-        WallJump();
         Dash();
+        Crawl();
     }
+
 
 
     Rigidbody2D rb;
@@ -24,62 +26,39 @@ public class Player_Controls : MonoBehaviour
     float x_speed = 10;
     void X_Move()
     {
-        if (Input.GetKey(KeyCode.A) && !isTouchLeft && !isDashing) x_dir = -1;
-        else if (Input.GetKey(KeyCode.D) && !isTouchRight && !isDashing) x_dir = 1;
+        if (Input.GetKey(KeyCode.A)) x_dir = -1;
+        else if (Input.GetKey(KeyCode.D)) x_dir = 1;
+        else x_dir = 0;
 
-        else if (Input.GetKey(KeyCode.A) && isTouchLeft && !isDashing) x_dir = 0;
-        else if (Input.GetKey(KeyCode.D) && isTouchRight && !isDashing) x_dir = 0;
-
-        else if (!isDashing) x_dir = 0;
-
-        rb.linearVelocityX = x_dir * x_speed;
+        rb.linearVelocityX = x_dir * x_speed * dash_multiplier * crawl_multiplier;
     }
 
     float jump_height = 20f;
     public static bool isOnFloor;
     void Jump()
     {
-        if (Input.GetKey(KeyCode.Space) && isOnFloor)
+        if (Input.GetKeyDown(KeyCode.Space) && isOnFloor)
         {
             rb.linearVelocityY = jump_height;
             isOnFloor = false;
 
         }
-
-        //Debug.Log(isOnFloor);
     }
 
-    public static bool isTouchLeft;
-    public static bool isTouchRight;
-    void WallJump()
-    {
-        if (Input.GetKey(KeyCode.Space) && isTouchRight)
-        {
-            rb.linearVelocityY = jump_height;
-            rb.linearVelocityX = -x_speed * 3;
-            isTouchRight = false;
-        }
 
-        if (Input.GetKey(KeyCode.Space) && isTouchLeft)
-        {
-            rb.linearVelocityY = jump_height;
-            rb.linearVelocityX = x_speed * 3;
-            isTouchLeft = false;
-        }
-    }
 
-    float dash_cooldown = 3;
-    float dash_duration = 0.5f;
+    float dash_cooldown = 1;
+    float dash_duration = 0.05f;
     bool dash_ready = true;
     bool isDashing = false;
+    float dash_multiplier = 1;
     void Dash()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && dash_ready && rb.linearVelocityX!=0)
+        if (Input.GetKey(KeyCode.LeftShift) && dash_ready && rb.linearVelocityX != 0)
         {
             dash_ready = false;
             isDashing = true;
-
-            rb.linearVelocityX = x_dir * x_speed * 10;
+            dash_multiplier = 10;
 
             StartCoroutine(DashCooldown(dash_cooldown));
             StartCoroutine(DashDuration(dash_duration));
@@ -89,6 +68,7 @@ public class Player_Controls : MonoBehaviour
     IEnumerator DashDuration(float wait)
     {
         yield return new WaitForSeconds(wait);
+        dash_multiplier = 1;
         isDashing = false;
     }
 
@@ -98,4 +78,28 @@ public class Player_Controls : MonoBehaviour
         dash_ready = true;
     }
 
+
+    float crawl_multiplier = 1;
+    CapsuleCollider2D player_collider;
+    public static bool isTouchCeiling = false;
+    void Crawl()
+    {
+        if (Input.GetKey(KeyCode.S))
+        {
+            crawl_multiplier = 0.5f;
+            player_collider.size = new Vector2(player_collider.size.x, 1);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.S) && !isTouchCeiling)
+        {
+            crawl_multiplier = 1;
+            player_collider.size = new Vector2(player_collider.size.x, 2);
+        }
+
+        else if (!isTouchCeiling)
+        {
+            crawl_multiplier = 1;
+            player_collider.size = new Vector2(player_collider.size.x, 2);
+        }
+    }
 }

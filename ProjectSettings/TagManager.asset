@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Platform
+  - Trap
+  - Spawnpoint
+  - Goalpoint
+  - Codecrumb
+  - Switch
+  - Codecrumb1
+  - Codecrumb2
+  - Codecrumb3
   layers:
   - Default
   - TransparentFX
