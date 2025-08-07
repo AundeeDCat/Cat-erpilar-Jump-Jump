@@ -13,6 +13,7 @@ TagManager:
   - Codecrumb1
   - Codecrumb2
   - Codecrumb3
+  - Window
   layers:
   - Default
   - TransparentFX

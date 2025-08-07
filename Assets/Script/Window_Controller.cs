@@ -17,7 +17,7 @@ public class Window_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isWindow) Walkthrough();
+        //if(isWindow) Walkthrough();
     }
 
     void Walkthrough()
