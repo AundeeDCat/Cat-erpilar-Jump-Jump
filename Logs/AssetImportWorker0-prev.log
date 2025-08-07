@@ -1,0 +1,2200 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32616 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-08-07T10:46:09Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/[PROGRAMMING]/[GITHUB]/Cat-erpilar-Jump-Jump
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50640
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/[PROGRAMMING]/[GITHUB]/Cat-erpilar-Jump-Jump
+D:/[PROGRAMMING]/[GITHUB]/Cat-erpilar-Jump-Jump
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27396]  Target information:
+
+Player connection [27396]  * "[IP] 192.168.100.9 [Port] 0 [Flags] 2 [Guid] 39350264 [EditorId] 39350264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L3UL4MU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27396] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27396] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.3f1 (f34db9734971)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/[PROGRAMMING]/[GITHUB]/Cat-erpilar-Jump-Jump/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:          NVIDIA
+    VRAM:            8020 MB
+    App VRAM Budget: 7252 MB
+    Driver:          32.0.15.6641
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002594 seconds.
+- Loaded All Assemblies, in  0.417 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 796ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1678ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6597 unused Assets / (4.8 MB). Loaded Objects now: 7312.
+Memory consumption went from 174.8 MB to 170.0 MB.
+Total: 10.483900 ms (FindLiveObjects: 0.696300 ms CreateObjectMapping: 0.872400 ms MarkObjects: 5.850300 ms  DeleteObjects: 3.063300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12072.260182 seconds.
+  path: Assets/Scenes/TestingSandbox.unity
+  artifactKey: Guid(b2b42b593eca96547b1e33e72dd5d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestingSandbox.unity using Guid(b2b42b593eca96547b1e33e72dd5d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '634fc3bf691601596eceae2960c6d483') in 0.0137293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9ec39500a24aaa31149dd913d3c0d93') in 0.0004609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.031457 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0005216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.430054 seconds.
+  path: Assets/Nicaia's Art!
+  artifactKey: Guid(382af7ffc7512a14b90c399dcb9957b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicaia's Art! using Guid(382af7ffc7512a14b90c399dcb9957b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3382b3f2f0c49b7d911a483ffb20a69c') in 0.0004492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.986366 seconds.
+  path: Assets/art and everything nice
+  artifactKey: Guid(382af7ffc7512a14b90c399dcb9957b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice using Guid(382af7ffc7512a14b90c399dcb9957b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe78dc5ef1b9f84228bb5ed7367aa5e') in 0.0005209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.987315 seconds.
+  path: Assets/art and everything nice/Art Corner.unity
+  artifactKey: Guid(fd60688b4a9a698469d5a52c3de78bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Art Corner.unity using Guid(fd60688b4a9a698469d5a52c3de78bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '437b222bf6ff23ea67d1333d2775c9b1') in 0.0005379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.981249 seconds.
+  path: Assets/art and everything nice/Tiles.png
+  artifactKey: Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tiles.png using Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8170d35e918b616df514410e9a3342ca') in 0.2963691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1005.434780 seconds.
+  path: Assets/art and everything nice/Tilesets
+  artifactKey: Guid(853ffb84da97f0244a0aca1e5d2c4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets using Guid(853ffb84da97f0244a0aca1e5d2c4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34ffea85c1ede492ce9737f7ab40ae8') in 0.0006059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.033361 seconds.
+  path: Assets/art and everything nice/Tilesets/Laptop.prefab
+  artifactKey: Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Laptop.prefab using Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf8c82e2052b169cf481e9997c83db4') in 0.461915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.172201 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles.png
+  artifactKey: Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles.png using Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b790f2c3559951c09214948e424db9d3') in 0.2529659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.863362 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles.png
+  artifactKey: Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles.png using Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90aa2c5b5cee8824bcf04d4e0e4efb65') in 0.636184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 265
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.856594 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_7.asset
+  artifactKey: Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_7.asset using Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b40ed888f5e178af8136b587aa5fa6') in 0.0425807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449273 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_11.asset
+  artifactKey: Guid(d70d1183b173dee4995d9788b51f0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_11.asset using Guid(d70d1183b173dee4995d9788b51f0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aceec1a28cbd984867787a51588b23e8') in 0.0138607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.516276 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_14.asset
+  artifactKey: Guid(929102a9a9d949841a24aaf21a57c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_14.asset using Guid(929102a9a9d949841a24aaf21a57c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8097f42f55561d349750e1c0c60a83db') in 0.0154204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.521363 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_0.asset
+  artifactKey: Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_0.asset using Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9626b72b9476fcd294b1a0d1063f3417') in 0.0177264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.980509 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_1.asset
+  artifactKey: Guid(f197246798eb4b14eabf2bcf39c75370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_1.asset using Guid(f197246798eb4b14eabf2bcf39c75370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8fd8303e237b3718c7dd3d0ecd55d4') in 0.0163194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_19.asset
+  artifactKey: Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_19.asset using Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89024bf0f50480c616ee166253820bee') in 0.0180253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_4.asset
+  artifactKey: Guid(5f6b6b004e1a7064f903c850999d2208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_4.asset using Guid(5f6b6b004e1a7064f903c850999d2208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d35cf60cd41618e3bb32cf0a0a91580') in 0.0159863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_21.asset
+  artifactKey: Guid(9c265e4580ee4d54da5954e5b041e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_21.asset using Guid(9c265e4580ee4d54da5954e5b041e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4135786945c5e39d15aab4f2a9871542') in 0.0154751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_6.asset
+  artifactKey: Guid(a506e87c700fa0f4292864d0974ec5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_6.asset using Guid(a506e87c700fa0f4292864d0974ec5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49534ff98201ce2476f9cbb7426d73e8') in 0.0160137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_16.asset
+  artifactKey: Guid(04c6713223e24774d82c982af18d7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_16.asset using Guid(04c6713223e24774d82c982af18d7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98a91379a5e84df9f78589dc29b6ec9') in 0.0156958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_5.asset
+  artifactKey: Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_5.asset using Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f126a5c50706bf697e1aa9340242bf4e') in 0.0163686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_23.asset
+  artifactKey: Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_23.asset using Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cb294988a015f51f8c122df54605528') in 0.0191218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_10.asset
+  artifactKey: Guid(a406052876e4201448103306ffa47c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_10.asset using Guid(a406052876e4201448103306ffa47c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65f4ff47cdbae3c06b7c537302e04034') in 0.0159469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_3.asset
+  artifactKey: Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_3.asset using Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f31776462d52fe32f0d88e209cbc24') in 0.0143701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_9.asset
+  artifactKey: Guid(9591309431a115541af893c79ec47130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_9.asset using Guid(9591309431a115541af893c79ec47130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a56324cac3adb9981c836a1d084c3c') in 0.0168631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_28.asset
+  artifactKey: Guid(1cf693bf81543824fb873d105b938601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_28.asset using Guid(1cf693bf81543824fb873d105b938601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9540d00ad7791f95772194f1f20142f6') in 0.0230235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_26.asset
+  artifactKey: Guid(26eabb0f8a790bd428c5281602b2805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_26.asset using Guid(26eabb0f8a790bd428c5281602b2805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dcd001d38d51fd5a7c641d22f88ef76') in 0.0157631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_25.asset
+  artifactKey: Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_25.asset using Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f51e7ba834c542c04844bca48a76d52') in 0.0186545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_31.asset
+  artifactKey: Guid(995b2c7e79afd6847a66aadd77406da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_31.asset using Guid(995b2c7e79afd6847a66aadd77406da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26fd42e17a4e467f409b4860843eba24') in 0.0156365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_27.asset
+  artifactKey: Guid(1f12a6f572b06c84899b60d00f116616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_27.asset using Guid(1f12a6f572b06c84899b60d00f116616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60fc67f4ec4d3683d55c6efe83d9a616') in 0.0164785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_17.asset
+  artifactKey: Guid(05b1b688fd0ae7b46bb1385c2f633fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_17.asset using Guid(05b1b688fd0ae7b46bb1385c2f633fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6631349cbbd656ef22980c55e3975782') in 0.0159325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_12.asset
+  artifactKey: Guid(54e2b97d2bce6324a92e6e09f3915329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_12.asset using Guid(54e2b97d2bce6324a92e6e09f3915329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b31777aab56de4812c80a73a167e1173') in 0.0158259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.897333 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_0.asset
+  artifactKey: Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_0.asset using Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28b892bc4f13f545b9bda65b6d3af8e') in 0.018192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_19.asset
+  artifactKey: Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_19.asset using Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b05e84a02f209a98ee635d6f75ab7e7') in 0.0233015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_33.asset
+  artifactKey: Guid(05fd2c039674c7d4e84e3970631e6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_33.asset using Guid(05fd2c039674c7d4e84e3970631e6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f29df2552f7d08279782edf38789ec44') in 0.0183338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_21.asset
+  artifactKey: Guid(9c265e4580ee4d54da5954e5b041e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_21.asset using Guid(9c265e4580ee4d54da5954e5b041e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464ad463b7546f94145a5dc00a89ab7c') in 0.0158055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_34.asset
+  artifactKey: Guid(eb67edd193a54194385f5070290009fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_34.asset using Guid(eb67edd193a54194385f5070290009fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c6590eeb41d7e7c0c6bd122fa89e66') in 0.0169051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_8.asset
+  artifactKey: Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_8.asset using Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06cf52c696010477f494fbcf91fb4577') in 0.0155908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_5.asset
+  artifactKey: Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_5.asset using Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ac61daeba8ee392d04e2139d3ad70a') in 0.0167749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_23.asset
+  artifactKey: Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_23.asset using Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920c1353a8f1bdb1eaf549d02c722c82') in 0.0155868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_24.asset
+  artifactKey: Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_24.asset using Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '298ef9a80523f21335f91158853e72d7') in 0.0157453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_3.asset
+  artifactKey: Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_3.asset using Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3828f00b97b1584eb8094347103803') in 0.0170727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_30.asset
+  artifactKey: Guid(7db41bcc5b0ea3f4184a27328040c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_30.asset using Guid(7db41bcc5b0ea3f4184a27328040c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd79320c1fd5fa8fddf9eea54302f11af') in 0.015983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_29.asset
+  artifactKey: Guid(5183c4def9752e446a3521055318c841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_29.asset using Guid(5183c4def9752e446a3521055318c841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fee4326926ce218952a081a13ac621fe') in 0.0156069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_13.asset
+  artifactKey: Guid(a4d847b50ce1bec4b8b38bd3484fbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_13.asset using Guid(a4d847b50ce1bec4b8b38bd3484fbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447605e1f24de3d8313f45000f63b79b') in 0.0153622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_25.asset
+  artifactKey: Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_25.asset using Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe9e39ec120893d5dc407bb42ef5029') in 0.008178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_31.asset
+  artifactKey: Guid(995b2c7e79afd6847a66aadd77406da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_31.asset using Guid(995b2c7e79afd6847a66aadd77406da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '246293ddff301f75b0485da51aa7b7de') in 0.0160574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_7.asset
+  artifactKey: Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_7.asset using Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33aea8d230e85af87e25edbb56f8efe5') in 0.0142822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_18.asset
+  artifactKey: Guid(f9147a9d330dea34aa417fc3d96c35c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_18.asset using Guid(f9147a9d330dea34aa417fc3d96c35c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd874e7688ee7fb8308dfd3974099d7f9') in 0.015219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1815.167522 seconds.
+  path: Assets/art and everything nice/Tilesets/Laptop.prefab
+  artifactKey: Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Laptop.prefab using Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2598d1937752452d1bc8e695ea6c02ea') in 0.0229837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.923428 seconds.
+  path: Assets/art and everything nice/Tilesets/Laptop.prefab
+  artifactKey: Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Laptop.prefab using Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd0c0671b733bea2b7f2c7848b54e45c') in 0.117774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 537
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_76.asset
+  artifactKey: Guid(142dec1f550c17941b9189a6eee4640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_76.asset using Guid(142dec1f550c17941b9189a6eee4640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d585ba245690d19d6d5670cd1586ad') in 0.019466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_61.asset
+  artifactKey: Guid(c64b1eee1bc8cc54880144ee9dd82beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_61.asset using Guid(c64b1eee1bc8cc54880144ee9dd82beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ac7359bdd4991bb73026d2b3110982f') in 0.0169237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_63.asset
+  artifactKey: Guid(d32b29ac75be8f6468f6d76d2b6ac35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_63.asset using Guid(d32b29ac75be8f6468f6d76d2b6ac35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b711e70d29100182b1a6b5b362e6f2') in 0.016762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_64.asset
+  artifactKey: Guid(87749e06754ac9143b7544ad249017a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_64.asset using Guid(87749e06754ac9143b7544ad249017a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdc5c55e1cd40012edd6a0fe96aee330') in 0.0159799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_69.asset
+  artifactKey: Guid(87970da31f2ebe749aa920981256ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_69.asset using Guid(87970da31f2ebe749aa920981256ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3ac9aa87140306ee3ddd234a370865') in 0.0169433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_52.asset
+  artifactKey: Guid(34d07e42d0a7ccf4cac555653bc7dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_52.asset using Guid(34d07e42d0a7ccf4cac555653bc7dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ce78a8094e9cd2ff2e1ee9fe0ad38eb') in 0.0159764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_40.asset
+  artifactKey: Guid(54ffb35a64a0f144bba06b0a909c490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_40.asset using Guid(54ffb35a64a0f144bba06b0a909c490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4464a9e13b0025ad94dc876b87945fec') in 0.016513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_67.asset
+  artifactKey: Guid(86432e6ddeaaf7b479154e6242028446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_67.asset using Guid(86432e6ddeaaf7b479154e6242028446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb2b9e483765e47fcff28d4cc127ad48') in 0.0143111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_39.asset
+  artifactKey: Guid(3f51062bcd4058d44a06e0c2fe7d5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_39.asset using Guid(3f51062bcd4058d44a06e0c2fe7d5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55123ea43d3a4f29e595a73715baa82b') in 0.0150962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_59.asset
+  artifactKey: Guid(bfd71334136fd854290a42a7d4d8dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_59.asset using Guid(bfd71334136fd854290a42a7d4d8dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '951d17b4f9db28badd4d29c908e78322') in 0.0165746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_73.asset
+  artifactKey: Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_73.asset using Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f72c8f358d274075203a9d946505902f') in 0.0164833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_72.asset
+  artifactKey: Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_72.asset using Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39cf1e2b85ee625376d83ed2b4df7ad1') in 0.0153467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_41.asset
+  artifactKey: Guid(abcd5a81f3962bb42b52327b118c1ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_41.asset using Guid(abcd5a81f3962bb42b52327b118c1ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7399a9ce95e6f8fe5a48f57b67733024') in 0.0176627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_57.asset
+  artifactKey: Guid(4d64bfd4548a12247995b81728fd215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_57.asset using Guid(4d64bfd4548a12247995b81728fd215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a2c3ae703a9ae9c57fefb01a4d1665') in 0.0167767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_47.asset
+  artifactKey: Guid(916343c9497cf0a4e9144565201573f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_47.asset using Guid(916343c9497cf0a4e9144565201573f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1017c590688da272936545c3d8fce8cf') in 0.0151022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_65.asset
+  artifactKey: Guid(95f0486742f090e4b9008d7fe03f104c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_65.asset using Guid(95f0486742f090e4b9008d7fe03f104c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a3a261cccff2c2392e2bb56a4cc3a7b') in 0.0167141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_44.asset
+  artifactKey: Guid(1153a9d8de938754baf1fed8334bbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_44.asset using Guid(1153a9d8de938754baf1fed8334bbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85a471a592fdc5bd1a03f2b856fe159') in 0.0149148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_78.asset
+  artifactKey: Guid(fb60666cbcc9bf544aa9dab94ed50b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_78.asset using Guid(fb60666cbcc9bf544aa9dab94ed50b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0479257a9e2bd1292117070cf7e18c61') in 0.0150348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_62.asset
+  artifactKey: Guid(bbb5e4b1853c0fb439107c15a7cbf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_62.asset using Guid(bbb5e4b1853c0fb439107c15a7cbf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '273ef32fe531c138a345f2bdf8ce4955') in 0.0154999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_77.asset
+  artifactKey: Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_77.asset using Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d461a61251ef77230a3a93079ceb2e7') in 0.0138543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.403495 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_79.asset
+  artifactKey: Guid(a2629de48d10a564893a8ae13e926d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_79.asset using Guid(a2629de48d10a564893a8ae13e926d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81814334ffdecebefc0090c89c29f5c0') in 0.0159182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_90.asset
+  artifactKey: Guid(e008b59d32310604a8405b57f4e9518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_90.asset using Guid(e008b59d32310604a8405b57f4e9518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6445b1a94f9b5cc596f5f26fb061a44') in 0.0152643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_93.asset
+  artifactKey: Guid(57d83e930c9efda43a884ce4f9c9e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_93.asset using Guid(57d83e930c9efda43a884ce4f9c9e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92028fad3bbc9bb160aa8e10774c3d13') in 0.015846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_82.asset
+  artifactKey: Guid(c2e4d02d70134de4a88ffa3c05c2560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_82.asset using Guid(c2e4d02d70134de4a88ffa3c05c2560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee1ac3ca5cd763ec077e49665c355a5d') in 0.0177073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_84.asset
+  artifactKey: Guid(fd4844ae49b17db4b9da428153085017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_84.asset using Guid(fd4844ae49b17db4b9da428153085017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ced18ec1b4da9e28e9008fc19993ff1') in 0.0175157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_83.asset
+  artifactKey: Guid(3723cb19e4d711948877e8d002f7b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_83.asset using Guid(3723cb19e4d711948877e8d002f7b0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530bcfdddeb7aa6efea614bbb67a92e6') in 0.0164333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.003039 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_95.asset
+  artifactKey: Guid(7aca656bd0d69f34c9de63b4120508b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_95.asset using Guid(7aca656bd0d69f34c9de63b4120508b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b69c45ca5930961a789db3bd92a61ca') in 0.0163455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_104.asset
+  artifactKey: Guid(7f6b6ba7fc4c3dc49897fedab82ffc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_104.asset using Guid(7f6b6ba7fc4c3dc49897fedab82ffc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bbfb4f6cd8baea74ed575c453f2cceb') in 0.0177379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_99.asset
+  artifactKey: Guid(b07f874fd62b3f549a6096cedb76088a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_99.asset using Guid(b07f874fd62b3f549a6096cedb76088a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afe0c75e60fc48d9b19fd872bebe1f48') in 0.0169907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_107.asset
+  artifactKey: Guid(09b8e931c2a65ac45aac9abd3d8f7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_107.asset using Guid(09b8e931c2a65ac45aac9abd3d8f7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6b988eed9909938a7bc95f588cea1f') in 0.017265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_109.asset
+  artifactKey: Guid(578365795a583c94a92138d466507825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_109.asset using Guid(578365795a583c94a92138d466507825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06b9c9d30dd24085b40f693cd18adc7') in 0.0152755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_111.asset
+  artifactKey: Guid(986ffd7d2a34d784fb525bad4f97d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_111.asset using Guid(986ffd7d2a34d784fb525bad4f97d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f4f03e8c1017a484349ebd45c5d2979') in 0.0180405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_139.asset
+  artifactKey: Guid(42a2177fe8e9f9b4c81b78cce67776cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_139.asset using Guid(42a2177fe8e9f9b4c81b78cce67776cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d4d60a906f1ffe56efc23b86bbcdecf') in 0.0087893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_153.asset
+  artifactKey: Guid(5be291baec1a9d948a3ca7438c3bfae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_153.asset using Guid(5be291baec1a9d948a3ca7438c3bfae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f522f16e740ec39ef153e47313b2f2f7') in 0.009039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_132.asset
+  artifactKey: Guid(947e42ee0242d3946909420d3d8405f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_132.asset using Guid(947e42ee0242d3946909420d3d8405f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee52003a0b49ab985355ac666864f2b7') in 0.0084331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_121.asset
+  artifactKey: Guid(f6f6c678beda10041b4f690263afe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_121.asset using Guid(f6f6c678beda10041b4f690263afe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfaea712f63ca9de15decd79166bb84a') in 0.016669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_113.asset
+  artifactKey: Guid(c894167c0ba26764eaf5640bdcc13590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_113.asset using Guid(c894167c0ba26764eaf5640bdcc13590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1684060fae7f9eab7e213fb0b2f4d1d') in 0.0172792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_131.asset
+  artifactKey: Guid(c6796f2b3fadd5943a02b6a98bef9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_131.asset using Guid(c6796f2b3fadd5943a02b6a98bef9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b7d5a68c3b9f8101f632edd5c172fd') in 0.0082709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_179.asset
+  artifactKey: Guid(92bb12024b9d6cb459e2f41602af1e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_179.asset using Guid(92bb12024b9d6cb459e2f41602af1e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37c579bd12b7b8618f1901c0cfbc1e16') in 0.0161027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_194.asset
+  artifactKey: Guid(c2498939d424ef84691a17199a07729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_194.asset using Guid(c2498939d424ef84691a17199a07729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dac9d6f9e29644192256b06ca960d3b') in 0.0145386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_162.asset
+  artifactKey: Guid(bb5cc0832e1381e4b80d9e65d35d1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_162.asset using Guid(bb5cc0832e1381e4b80d9e65d35d1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'badb831ea1f3dddbc66b6b5a3db6e770') in 0.0155998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_164.asset
+  artifactKey: Guid(7a8601ef910dde947bb6ace22ad0db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_164.asset using Guid(7a8601ef910dde947bb6ace22ad0db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f6c61f64c0579ef61c8bdf6867e167b') in 0.0148998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_163.asset
+  artifactKey: Guid(b1f1fc55ccee63d44865498e78cde9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_163.asset using Guid(b1f1fc55ccee63d44865498e78cde9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35254e55fa206708c5b94220024a6227') in 0.0157718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_197.asset
+  artifactKey: Guid(060c207fedaf99c44a53841639d1d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_197.asset using Guid(060c207fedaf99c44a53841639d1d092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3e0f4db29eba059e5f75624dda5ab34') in 0.014149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_191.asset
+  artifactKey: Guid(36b1c3924f9d8114297273f7bc6c7dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_191.asset using Guid(36b1c3924f9d8114297273f7bc6c7dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45587f88a8b1a9ed723177b8dc78b86d') in 0.0163243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_204.asset
+  artifactKey: Guid(badf6b3c2f32f7a419d9853d34f4dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_204.asset using Guid(badf6b3c2f32f7a419d9853d34f4dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1116c0e23cf5348e1f0316415118b81b') in 0.0161821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_171.asset
+  artifactKey: Guid(3fb8e56618e8c7e42afc7874218fad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_171.asset using Guid(3fb8e56618e8c7e42afc7874218fad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cd4fdc57b4b06ef2c271048ff7d7cb0') in 0.0155543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_184.asset
+  artifactKey: Guid(6a3cc61ac7ad3fc45901becd4e1f343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_184.asset using Guid(6a3cc61ac7ad3fc45901becd4e1f343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9df2cac4028ae342363e7aeab722d8c') in 0.0173638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_142.asset
+  artifactKey: Guid(3b000568f8ecaf2428e0570b5007078d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_142.asset using Guid(3b000568f8ecaf2428e0570b5007078d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b81a86e3407a84d73f66cb3c13767904') in 0.0171483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_123.asset
+  artifactKey: Guid(79932a69e1ec234499de9f435e431a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_123.asset using Guid(79932a69e1ec234499de9f435e431a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc44775b64c5bb4cd878e2afd8d4ca2c') in 0.0092028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_134.asset
+  artifactKey: Guid(529484f30801add4c9355de65331d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_134.asset using Guid(529484f30801add4c9355de65331d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26443c1f864f287ef8a8d0c96e668c80') in 0.008747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_137.asset
+  artifactKey: Guid(a985b825918bd0a4c87e9ddb1cffbe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_137.asset using Guid(a985b825918bd0a4c87e9ddb1cffbe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff1cde3487c154eb0e58ecf2a4af1fb6') in 0.0082848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_148.asset
+  artifactKey: Guid(8b061924b695d3e4cb29be7f99401ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_148.asset using Guid(8b061924b695d3e4cb29be7f99401ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0329869cb8ab43a7753f1f734aa1b2b5') in 0.0102391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_152.asset
+  artifactKey: Guid(006076e3a669a474d918e3e126015f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_152.asset using Guid(006076e3a669a474d918e3e126015f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63428274a32d568a206a6f5c07165667') in 0.0086383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_126.asset
+  artifactKey: Guid(dee11273b86690f4092af8a2eb9f43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_126.asset using Guid(dee11273b86690f4092af8a2eb9f43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bba1ac11d9badd0a485933045bd9733') in 0.0113086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_218.asset
+  artifactKey: Guid(7bb523937aba1494c8b2e436f7bac285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_218.asset using Guid(7bb523937aba1494c8b2e436f7bac285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d0656861a15ed363edf1e78a1e679b') in 0.0161142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_250.asset
+  artifactKey: Guid(7edbb93b403b6474d9cf6182fd8cda34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_250.asset using Guid(7edbb93b403b6474d9cf6182fd8cda34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5240aee5da3cf65d887a63b9f981f09') in 0.0167142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_253.asset
+  artifactKey: Guid(886718bc95af3b34e93439fe49ab0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_253.asset using Guid(886718bc95af3b34e93439fe49ab0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd0ea41a08dcf7341e66ced9d71fb7b') in 0.0165138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_209.asset
+  artifactKey: Guid(162453a7bea4c674db31ab6b26a31d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_209.asset using Guid(162453a7bea4c674db31ab6b26a31d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3b653b3584a156287b5bb7f00d14add') in 0.0182596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_240.asset
+  artifactKey: Guid(bf9cf1b6186ff464088c89112036a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_240.asset using Guid(bf9cf1b6186ff464088c89112036a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2524305fa1ed1224a701d28835870f13') in 0.0195771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_232.asset
+  artifactKey: Guid(ac5f01e1d649e354d948413d1439d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_232.asset using Guid(ac5f01e1d649e354d948413d1439d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41a2e5cb969ac8e7a00b4601018f8235') in 0.0161972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_225.asset
+  artifactKey: Guid(bc221d0c5195f45468a2eeae08773630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_225.asset using Guid(bc221d0c5195f45468a2eeae08773630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d9a03cb1871c0ea75f9ebdb42bed581') in 0.009226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_256.asset
+  artifactKey: Guid(27e53c5451dacef4e9cf816572187e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_256.asset using Guid(27e53c5451dacef4e9cf816572187e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1944822a56fabcb760169f90b4b88e08') in 0.0177016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_249.asset
+  artifactKey: Guid(cc22e767a92e6ef4bbe35996d32f368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_249.asset using Guid(cc22e767a92e6ef4bbe35996d32f368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dff39f37c74882f62db37861007e500a') in 0.0080999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_233.asset
+  artifactKey: Guid(8721ab4c1d29b77468a59b1c2759beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_233.asset using Guid(8721ab4c1d29b77468a59b1c2759beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '360bcf4afa6299db74c5a028450140e0') in 0.0147753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_254.asset
+  artifactKey: Guid(948678d77b07ee748b8150a22b39f4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_254.asset using Guid(948678d77b07ee748b8150a22b39f4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94691b7f598c5abfde178c0225c67461') in 0.0151268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_219.asset
+  artifactKey: Guid(0fe888064dd0114439953fe517390511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_219.asset using Guid(0fe888064dd0114439953fe517390511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f6418976fdc2b45743eb025312a9a04') in 0.0155939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_222.asset
+  artifactKey: Guid(f19413e072abfb34199111b1c8a22ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_222.asset using Guid(f19413e072abfb34199111b1c8a22ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce70f2a52666bac0f0c08dc6f14a304c') in 0.016738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_237.asset
+  artifactKey: Guid(d50606ffdd88ac948b107f9806ee6b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_237.asset using Guid(d50606ffdd88ac948b107f9806ee6b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caf3893f2f6c399fd6ed783e42b1bf3f') in 0.0085247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_243.asset
+  artifactKey: Guid(edbe42c6574b2b54da983734a6a62473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_243.asset using Guid(edbe42c6574b2b54da983734a6a62473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07ebfd46f2ffaf8541ed41ccaa2fff1e') in 0.0161246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_257.asset
+  artifactKey: Guid(ff6f0aa45913c5145a36d0720da53aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_257.asset using Guid(ff6f0aa45913c5145a36d0720da53aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b0d22135df30f2bbb1e131c2ce5e47c') in 0.0080122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_255.asset
+  artifactKey: Guid(969dcd3a07f8e634f84445a7946a27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_255.asset using Guid(969dcd3a07f8e634f84445a7946a27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7cdf9df0a38f62cecae9f6d678e2f81') in 0.0218015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_150.asset
+  artifactKey: Guid(07c9ed6810560ee44b81b8ba877c6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_150.asset using Guid(07c9ed6810560ee44b81b8ba877c6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cf71d82bfaa8c5a6fee9112fde9367f') in 0.0097577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_203.asset
+  artifactKey: Guid(5458f894feed00e4ba232fdde73d1e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_203.asset using Guid(5458f894feed00e4ba232fdde73d1e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d7ebf91a43340dca3aba0b140986ea') in 0.0165685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_244.asset
+  artifactKey: Guid(6e54a8d1e023d2b42bd9391356c7ac6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_244.asset using Guid(6e54a8d1e023d2b42bd9391356c7ac6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0babab87cf2d4cb826f1f99ddde959ab') in 0.0191424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_128.asset
+  artifactKey: Guid(e1f3943450d3eae49a3b8d8cb81bfa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_128.asset using Guid(e1f3943450d3eae49a3b8d8cb81bfa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765f3fc700bf7bc2715d61f8a4b76115') in 0.008431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_157.asset
+  artifactKey: Guid(f5164530c33ebc64fb453ec8679dce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_157.asset using Guid(f5164530c33ebc64fb453ec8679dce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bc17d5b36892ce2fd2af97594575444') in 0.0078985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_185.asset
+  artifactKey: Guid(069d630d776f93b4ebf95ef3a9673faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_185.asset using Guid(069d630d776f93b4ebf95ef3a9673faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de8adcc7027b7bdb1d88f432f01a76bd') in 0.0174042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_239.asset
+  artifactKey: Guid(d29b710db8e61414786b3bc941ace4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_239.asset using Guid(d29b710db8e61414786b3bc941ace4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2931a67b042fb59f0a0e23d9ceb32bc6') in 0.0168579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_167.asset
+  artifactKey: Guid(8266cb44fc062c84080785c9ca2f7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_167.asset using Guid(8266cb44fc062c84080785c9ca2f7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d8d6a4e9b5e560d961bf7d7df0daa9e') in 0.0164488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_138.asset
+  artifactKey: Guid(10a1ac7ab29cb4b45bca0037ab461d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_138.asset using Guid(10a1ac7ab29cb4b45bca0037ab461d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a617c7a94132925cdb0a772599562f1') in 0.0172923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_245.asset
+  artifactKey: Guid(03a338f7b8c73e74a862b0d4485a3d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_245.asset using Guid(03a338f7b8c73e74a862b0d4485a3d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a28f8be13360e3c18ec2233ee450eae') in 0.0187107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.144579 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles.png
+  artifactKey: Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles.png using Guid(01e708e737b714f4bbc8d0ed28089126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2af3d2243b81922a742f8fe28c8cb865') in 0.8514467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 265
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_73.asset
+  artifactKey: Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_73.asset using Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43135001087f47cea5f8ff8e8ab3d6b0') in 0.0089054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_41.asset
+  artifactKey: Guid(abcd5a81f3962bb42b52327b118c1ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_41.asset using Guid(abcd5a81f3962bb42b52327b118c1ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e993f6263b3210d48ec794cd3418e6be') in 0.0077378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_7.asset
+  artifactKey: Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_7.asset using Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368a16e0d2e9414f6c06ae2a84e42aee') in 0.0182898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_66.asset
+  artifactKey: Guid(e4fa706e43a281c438bc928ad98640c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_66.asset using Guid(e4fa706e43a281c438bc928ad98640c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f08c7cbd3669e7844b28b636ede993a7') in 0.008014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_43.asset
+  artifactKey: Guid(f0d45130b13316e43b3f425e716a1349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_43.asset using Guid(f0d45130b13316e43b3f425e716a1349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d182286fd2e7aab5a9edfd7611d9015') in 0.0081121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_4.asset
+  artifactKey: Guid(5f6b6b004e1a7064f903c850999d2208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_4.asset using Guid(5f6b6b004e1a7064f903c850999d2208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b4b0249c1c4bc3605fa11eb78b2e721') in 0.0078072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_60.asset
+  artifactKey: Guid(09b6f29468e73eb449a9a342562614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_60.asset using Guid(09b6f29468e73eb449a9a342562614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c846015e06e0dc9425ba8493c68140a1') in 0.0076696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_34.asset
+  artifactKey: Guid(eb67edd193a54194385f5070290009fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_34.asset using Guid(eb67edd193a54194385f5070290009fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7397da149b67a25c8220ec0f3f2a576') in 0.0116334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_8.asset
+  artifactKey: Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_8.asset using Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '148b1450960717c30bc1b7651ce53722') in 0.009942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_15.asset
+  artifactKey: Guid(ca3ef24c55512b9408cda41b7130ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_15.asset using Guid(ca3ef24c55512b9408cda41b7130ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e262a4d82c98f0fa599ff367e478086b') in 0.0101655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_24.asset
+  artifactKey: Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_24.asset using Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f433e6cb78f057d4ee8a5fd89df2b45') in 0.0092386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_40.asset
+  artifactKey: Guid(54ffb35a64a0f144bba06b0a909c490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_40.asset using Guid(54ffb35a64a0f144bba06b0a909c490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e12f5da1ab5d44270948caad50b69eb') in 0.0084837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_67.asset
+  artifactKey: Guid(86432e6ddeaaf7b479154e6242028446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_67.asset using Guid(86432e6ddeaaf7b479154e6242028446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9c1915d02741c29b2c65f596da5129c') in 0.0083341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_37.asset
+  artifactKey: Guid(648752cd03fa44e44b8d2de3da303b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_37.asset using Guid(648752cd03fa44e44b8d2de3da303b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebf3521e9554c7db05c798dee587c9a0') in 0.0082895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_72.asset
+  artifactKey: Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_72.asset using Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b801bfdf2a4b5bb7085545c3204513e') in 0.0101025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_57.asset
+  artifactKey: Guid(4d64bfd4548a12247995b81728fd215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_57.asset using Guid(4d64bfd4548a12247995b81728fd215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4c05ae22b21040d964cbaae3c9fdb55') in 0.0088983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_53.asset
+  artifactKey: Guid(84fd8139fbbcfd24a92eaa3863696287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_53.asset using Guid(84fd8139fbbcfd24a92eaa3863696287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '332cb444ba70de4e8ab095cc889f99c1') in 0.0082816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_22.asset
+  artifactKey: Guid(19c2245d01500fe45833ab478824bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_22.asset using Guid(19c2245d01500fe45833ab478824bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94cc849667d1628f1d7d4c5b5e472d64') in 0.0077675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_55.asset
+  artifactKey: Guid(836bb59431e3f4e45b3920eea714a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_55.asset using Guid(836bb59431e3f4e45b3920eea714a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb9a3852fe2933745c5db535ec3eed1d') in 0.0074448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_77.asset
+  artifactKey: Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_77.asset using Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34f986560ef1cece1d1afb54af9d0a22') in 0.0091174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 669.717167 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons.png
+  artifactKey: Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons.png using Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1784c703f33d4b4ce10d4c825017bcc') in 0.0305903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.172045 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons.png
+  artifactKey: Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons.png using Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c73593f180b0f8f23c7f999fed27799') in 0.0199893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.365240 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons_0.asset
+  artifactKey: Guid(b7d8e35c25a52434b93270d0dd34995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons_0.asset using Guid(b7d8e35c25a52434b93270d0dd34995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c42340493aa9f8ffc2fde11b26680369') in 0.0159258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1128.320787 seconds.
+  path: Assets/art and everything nice/Tilesets/Laptop.prefab
+  artifactKey: Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Laptop.prefab using Guid(13d748a058bd75d4e8f12afa3a207182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f9bd35c538745dd644639279a050d2e') in 0.1025423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 540
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.638763 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons.png
+  artifactKey: Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons.png using Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8927bc5bf4b330494cabbdbe4a0b67') in 0.0331287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.325931 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_0.asset
+  artifactKey: Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_0.asset using Guid(87516da7adfe4df4386e4217e866f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c6d605cc163506c7d6491e797fbd48a') in 0.010477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_19.asset
+  artifactKey: Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_19.asset using Guid(5cb326f56c8e83d49b801f557e2b003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39c8e6dc852085528beb8ac0ebce1a8f') in 0.0098838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_2.asset
+  artifactKey: Guid(702d5bfd8be329945842bc49362ebcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_2.asset using Guid(702d5bfd8be329945842bc49362ebcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90ddddf2420b6d8a639cd21055d97a4') in 0.0140092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_14.asset
+  artifactKey: Guid(929102a9a9d949841a24aaf21a57c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_14.asset using Guid(929102a9a9d949841a24aaf21a57c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c5d6aea98cba08ef209bfb05165f03') in 0.0110907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_70.asset
+  artifactKey: Guid(88eb74b9237beac449b500f83f5da147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_70.asset using Guid(88eb74b9237beac449b500f83f5da147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '330aea0b1be64a193ce202664f0456a6') in 0.0095949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_16.asset
+  artifactKey: Guid(04c6713223e24774d82c982af18d7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_16.asset using Guid(04c6713223e24774d82c982af18d7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9146ab9d6b95ce5424aaa2488797ec4d') in 0.0100803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_75.asset
+  artifactKey: Guid(c4f7a229cfaf9a94ca0b213d1872c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_75.asset using Guid(c4f7a229cfaf9a94ca0b213d1872c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e5e5f3e7c39090c34885c3df5e2753') in 0.0091988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_3.asset
+  artifactKey: Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_3.asset using Guid(3674cc82aff2c1a42824f828d9f9e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e78ec9be95c962684551afdf0729707') in 0.0112216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_58.asset
+  artifactKey: Guid(e3596295523c8b34a8085e85ae7f7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_58.asset using Guid(e3596295523c8b34a8085e85ae7f7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a950c1161aaa1230cdca948dfe056cf2') in 0.0087014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_9.asset
+  artifactKey: Guid(9591309431a115541af893c79ec47130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_9.asset using Guid(9591309431a115541af893c79ec47130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c249f97ec7684516eb22d95f6ee626') in 0.0174854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_73.asset
+  artifactKey: Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_73.asset using Guid(73c55c5b5ba08954eb1dc728a8121eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd231ab316b69005db64c5744888f49e5') in 0.0091435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_25.asset
+  artifactKey: Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_25.asset using Guid(a83ea221a81ecd74c99a311377becad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '879d8565c664b804860f778af690df71') in 0.0072511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_56.asset
+  artifactKey: Guid(2afb7939fd5e5114cb7a8b56586ebe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_56.asset using Guid(2afb7939fd5e5114cb7a8b56586ebe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12daca0ed49ecc99ea20281561a6825d') in 0.0085306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_7.asset
+  artifactKey: Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_7.asset using Guid(440c17c5595f3c340af49b357d07eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a011c5678a0b44fc7ea479f11fb7ed14') in 0.0104048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_44.asset
+  artifactKey: Guid(1153a9d8de938754baf1fed8334bbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_44.asset using Guid(1153a9d8de938754baf1fed8334bbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b61269345db7ac0d98bff5b5422a859f') in 0.0110853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_42.asset
+  artifactKey: Guid(f0e6f77cff8a01540a3a37037f51d22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_42.asset using Guid(f0e6f77cff8a01540a3a37037f51d22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eb70cbd290db910860e202e1be23e6b') in 0.0091351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_43.asset
+  artifactKey: Guid(f0d45130b13316e43b3f425e716a1349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_43.asset using Guid(f0d45130b13316e43b3f425e716a1349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc27756663b1e00a24c2695bf118f041') in 0.0167101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_76.asset
+  artifactKey: Guid(142dec1f550c17941b9189a6eee4640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_76.asset using Guid(142dec1f550c17941b9189a6eee4640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9178e14d1a23d3bbef9ba75f0e73ea4') in 0.009462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_33.asset
+  artifactKey: Guid(05fd2c039674c7d4e84e3970631e6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_33.asset using Guid(05fd2c039674c7d4e84e3970631e6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1499905fcc6f81c1abf6709240cb8b0') in 0.0083805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_60.asset
+  artifactKey: Guid(09b6f29468e73eb449a9a342562614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_60.asset using Guid(09b6f29468e73eb449a9a342562614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '670a30e5857a874580808b6d1729251d') in 0.0079926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_68.asset
+  artifactKey: Guid(bf43c0e3edd2f9047a976bed77f1fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_68.asset using Guid(bf43c0e3edd2f9047a976bed77f1fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a33f15379f7c337693fe0dd85c52833') in 0.0076139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_69.asset
+  artifactKey: Guid(87970da31f2ebe749aa920981256ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_69.asset using Guid(87970da31f2ebe749aa920981256ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd85103d5ed0a74061a1e77c8a71aec3c') in 0.0096955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_8.asset
+  artifactKey: Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_8.asset using Guid(1b304e68137e8b64b872d3b146dabf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6349f9abb254e7a295e2b620278d3e10') in 0.0191302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_5.asset
+  artifactKey: Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_5.asset using Guid(9ea1b88a46002a442a09de4bb5e8b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e64807ec3d009307a373310a268bc073') in 0.0087196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_23.asset
+  artifactKey: Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_23.asset using Guid(f3975d13d13a5ae4bad9126a811d1956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5782128f370239ccdb44376a896da790') in 0.0078675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_24.asset
+  artifactKey: Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_24.asset using Guid(acfea3f997939b64bad98f2edfbd7211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e30854169e720e749672aea5bf8596b0') in 0.0110513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_39.asset
+  artifactKey: Guid(3f51062bcd4058d44a06e0c2fe7d5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_39.asset using Guid(3f51062bcd4058d44a06e0c2fe7d5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd731cc450c45728909e91e022a18cbe1') in 0.018189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_30.asset
+  artifactKey: Guid(7db41bcc5b0ea3f4184a27328040c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_30.asset using Guid(7db41bcc5b0ea3f4184a27328040c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9137d07f9b12a056a0f95185cd4f121') in 0.0119873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_28.asset
+  artifactKey: Guid(1cf693bf81543824fb873d105b938601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_28.asset using Guid(1cf693bf81543824fb873d105b938601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af9ce4fdf45c66a8fb664caa70d6e7c8') in 0.0081116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_11.asset
+  artifactKey: Guid(d70d1183b173dee4995d9788b51f0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_11.asset using Guid(d70d1183b173dee4995d9788b51f0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adfe3dc4530840e431e1e5f7c768695f') in 0.0084265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_72.asset
+  artifactKey: Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_72.asset using Guid(cdd57266f6507c549b3c405981358f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffab0d6946426a2a26729f5d12c38a7e') in 0.0206631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_48.asset
+  artifactKey: Guid(58674a7e35c69584f913f26c72828be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_48.asset using Guid(58674a7e35c69584f913f26c72828be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '575cfa7121f614d8fac47a65d042b3df') in 0.0090135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_20.asset
+  artifactKey: Guid(d30fef983223e3148a3ed89f02a42441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_20.asset using Guid(d30fef983223e3148a3ed89f02a42441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb3e0af28aaf57ae381470b9d37cf7d') in 0.0087182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_53.asset
+  artifactKey: Guid(84fd8139fbbcfd24a92eaa3863696287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_53.asset using Guid(84fd8139fbbcfd24a92eaa3863696287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b38d10b8f60fac97dae1878d3d27ec76') in 0.0170133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_27.asset
+  artifactKey: Guid(1f12a6f572b06c84899b60d00f116616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_27.asset using Guid(1f12a6f572b06c84899b60d00f116616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17884a619980d471123687809379e47f') in 0.0088437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_17.asset
+  artifactKey: Guid(05b1b688fd0ae7b46bb1385c2f633fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_17.asset using Guid(05b1b688fd0ae7b46bb1385c2f633fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc0cd7be20683bab3524569ca2cba49e') in 0.0079252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_55.asset
+  artifactKey: Guid(836bb59431e3f4e45b3920eea714a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_55.asset using Guid(836bb59431e3f4e45b3920eea714a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1610030a1d9db8d33bb54f28b47774ed') in 0.0085487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_62.asset
+  artifactKey: Guid(bbb5e4b1853c0fb439107c15a7cbf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_62.asset using Guid(bbb5e4b1853c0fb439107c15a7cbf674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '595e2739493d4fd0084a0e2d18f83432') in 0.0087472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.317570 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_77.asset
+  artifactKey: Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_77.asset using Guid(cce6b9ca9fe69f849939fe3b1994e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e0520a495933c40b8b8721ed01005d') in 0.0110995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_79.asset
+  artifactKey: Guid(a2629de48d10a564893a8ae13e926d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_79.asset using Guid(a2629de48d10a564893a8ae13e926d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fb37f8e1c229c692ff104d84a93dda') in 0.0094938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_96.asset
+  artifactKey: Guid(14b55ae4a61bc0042b079a0477821152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_96.asset using Guid(14b55ae4a61bc0042b079a0477821152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca50ae400c38e2736b2a352b024f313c') in 0.0088424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_98.asset
+  artifactKey: Guid(5420a665bdfe7d548b12988bd201bada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_98.asset using Guid(5420a665bdfe7d548b12988bd201bada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89b854c7778052036860de7483ff4c29') in 0.0092757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_101.asset
+  artifactKey: Guid(9cadff777e65c1b4c9d3cb1c7ea4dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_101.asset using Guid(9cadff777e65c1b4c9d3cb1c7ea4dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2fb99bcdee0fbbb5ac4ac34806ed1a') in 0.0084279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_94.asset
+  artifactKey: Guid(73f37e3a23d7d7949905b77f94e3c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_94.asset using Guid(73f37e3a23d7d7949905b77f94e3c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba89f2c6bbf14f56bd4bd47fb74a49d') in 0.0179045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_100.asset
+  artifactKey: Guid(38d6c6f34edb8a949949344641f9240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_100.asset using Guid(38d6c6f34edb8a949949344641f9240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd59dbeb0167555463f65780a5b71b3e6') in 0.0097072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_105.asset
+  artifactKey: Guid(590214747c213354eb79e6fdcce2c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_105.asset using Guid(590214747c213354eb79e6fdcce2c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8edbcdd021f7a09ffd502d99a1ba0b84') in 0.0156256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_130.asset
+  artifactKey: Guid(57454f226820d04438626be52bdf7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_130.asset using Guid(57454f226820d04438626be52bdf7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b23fe35ee7b1bd93b0ca7f335e937f1') in 0.0077523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_82.asset
+  artifactKey: Guid(c2e4d02d70134de4a88ffa3c05c2560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_82.asset using Guid(c2e4d02d70134de4a88ffa3c05c2560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f65dc6d5737773b051f7f045888b1112') in 0.0079608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_125.asset
+  artifactKey: Guid(a71df7eea36045348b9649e4476fc449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_125.asset using Guid(a71df7eea36045348b9649e4476fc449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8432b3b8d441dc701eb13e69cb97af42') in 0.0100042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_127.asset
+  artifactKey: Guid(4a5930c528710e641a8c0c4315f33e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_127.asset using Guid(4a5930c528710e641a8c0c4315f33e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe7328e396602182418745da2486c7ca') in 0.0079501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_132.asset
+  artifactKey: Guid(947e42ee0242d3946909420d3d8405f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_132.asset using Guid(947e42ee0242d3946909420d3d8405f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94449ab5f3818c76ff72ece376160d47') in 0.0082763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_85.asset
+  artifactKey: Guid(1a50449652fef5d4db006fcb2a91b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_85.asset using Guid(1a50449652fef5d4db006fcb2a91b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ccb185bde8bc14ad88ca81e44e820fa') in 0.0080062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_111.asset
+  artifactKey: Guid(986ffd7d2a34d784fb525bad4f97d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_111.asset using Guid(986ffd7d2a34d784fb525bad4f97d1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2425bcc88a662139096e107e726b72b') in 0.0079768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_129.asset
+  artifactKey: Guid(4b642f5ffe00c9446a23e3e1d8397013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_129.asset using Guid(4b642f5ffe00c9446a23e3e1d8397013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94f95418c7f98901b56c97a2d48e2689') in 0.009179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_102.asset
+  artifactKey: Guid(333070bb7bb56e9458055d128b47ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_102.asset using Guid(333070bb7bb56e9458055d128b47ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d0e0f1b01d1ea3e8dc9a293fe19e482') in 0.0098027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_121.asset
+  artifactKey: Guid(f6f6c678beda10041b4f690263afe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_121.asset using Guid(f6f6c678beda10041b4f690263afe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a96774a789c13a3e60a811c58397f9') in 0.0092535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_124.asset
+  artifactKey: Guid(2801a3f83d1479445b6a0a3fadc79cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_124.asset using Guid(2801a3f83d1479445b6a0a3fadc79cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c4b0621a846159f875260d284d5c399') in 0.0102566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_131.asset
+  artifactKey: Guid(c6796f2b3fadd5943a02b6a98bef9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_131.asset using Guid(c6796f2b3fadd5943a02b6a98bef9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72ca2ea4bb6db51f924369f7f3e9e1b5') in 0.008128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_122.asset
+  artifactKey: Guid(3da1a80f206331144995a8b039180431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_122.asset using Guid(3da1a80f206331144995a8b039180431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bebf771ac369c6c572a63898af02a30') in 0.0085021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_118.asset
+  artifactKey: Guid(cdee407b81be96d46afcff7c9d94a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_118.asset using Guid(cdee407b81be96d46afcff7c9d94a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94fbce389d14027d20618512ae09e8a2') in 0.0225807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_116.asset
+  artifactKey: Guid(061f000f93eb42e47976eead424aa2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_116.asset using Guid(061f000f93eb42e47976eead424aa2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c9a9060830469997d76cc9cca7d79d3') in 0.0075847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_165.asset
+  artifactKey: Guid(fda785932649c88419e70a1aea132c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_165.asset using Guid(fda785932649c88419e70a1aea132c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc70dfc1518bf50943f506e19aa15b57') in 0.0154568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_195.asset
+  artifactKey: Guid(0658629ff430ea2438957ce67108b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_195.asset using Guid(0658629ff430ea2438957ce67108b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ec0ced17c58cf0b94c995f9375fbe2') in 0.009012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_178.asset
+  artifactKey: Guid(3d9ade1dfcfd0aa438d2236fbd4540f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_178.asset using Guid(3d9ade1dfcfd0aa438d2236fbd4540f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4075959e962279b40dffd8d6598aaef5') in 0.0135363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_154.asset
+  artifactKey: Guid(c72e7375d70646e45b2cfbbc0793e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_154.asset using Guid(c72e7375d70646e45b2cfbbc0793e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4b6dc22a7f8487f76a5b932ddc8e1f') in 0.009537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_175.asset
+  artifactKey: Guid(30170a893b24e4547ab543de2d7d360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_175.asset using Guid(30170a893b24e4547ab543de2d7d360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36083656a8d56a5745a1a94d2e318d8c') in 0.0210753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_172.asset
+  artifactKey: Guid(b3470e9375176b349bae701248725b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_172.asset using Guid(b3470e9375176b349bae701248725b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1600eb6115e648aacf935e93c4c4890') in 0.00848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_183.asset
+  artifactKey: Guid(385d32eb6765c5a4cadf690f36c443b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_183.asset using Guid(385d32eb6765c5a4cadf690f36c443b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c80b351341ca56ff907bbecf2c11953') in 0.0099248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_126.asset
+  artifactKey: Guid(dee11273b86690f4092af8a2eb9f43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_126.asset using Guid(dee11273b86690f4092af8a2eb9f43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab4885df32f17899c5bee9ea66a9e66') in 0.0109373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_150.asset
+  artifactKey: Guid(07c9ed6810560ee44b81b8ba877c6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_150.asset using Guid(07c9ed6810560ee44b81b8ba877c6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c413e344c20f0145385fd0c8677ecbb7') in 0.0083714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_81.asset
+  artifactKey: Guid(f176326c42c794740a569733a4ae1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_81.asset using Guid(f176326c42c794740a569733a4ae1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e3158d03e1685e34e9d13289742105') in 0.0092185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_117.asset
+  artifactKey: Guid(28a2b9beca04a194e90f32697df9c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_117.asset using Guid(28a2b9beca04a194e90f32697df9c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '776d17c6abdee5b117b28ba8fd2aa184') in 0.0197842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_143.asset
+  artifactKey: Guid(a17c573e954da754dab1972b486dca76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_143.asset using Guid(a17c573e954da754dab1972b486dca76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11de72127f603bafbb7daadb02c6fb60') in 0.0092471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_192.asset
+  artifactKey: Guid(a385962c454232544be4c9bc110e2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_192.asset using Guid(a385962c454232544be4c9bc110e2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b604a4c9bbcdd532bb23d0bf49174cf7') in 0.0091207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_181.asset
+  artifactKey: Guid(59a155b3ef9da1445a6110115f5e2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_181.asset using Guid(59a155b3ef9da1445a6110115f5e2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae66c2e8ab8dbfce7f051f55aec79fe7') in 0.0189443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_186.asset
+  artifactKey: Guid(d0daed8e0eaa2c14cb092bf4dec8a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_186.asset using Guid(d0daed8e0eaa2c14cb092bf4dec8a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f900457bb063c366dcf6d3134e3f5cd1') in 0.0082498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_194.asset
+  artifactKey: Guid(c2498939d424ef84691a17199a07729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_194.asset using Guid(c2498939d424ef84691a17199a07729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cc211f00d022c1125a15df6f56c2575') in 0.0085172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_145.asset
+  artifactKey: Guid(d32900686f5ccb54fb95a499da4a6046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_145.asset using Guid(d32900686f5ccb54fb95a499da4a6046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc33239f0590ea8e3dfa261cf31170e') in 0.0079808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_170.asset
+  artifactKey: Guid(c38d432e69bd33d49a6271d2fecaf743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_170.asset using Guid(c38d432e69bd33d49a6271d2fecaf743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1241cae9c14c3a348be45a76d139ef1') in 0.0180338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_173.asset
+  artifactKey: Guid(f8bb0dc716f8d974c9a5b91ddaea2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_173.asset using Guid(f8bb0dc716f8d974c9a5b91ddaea2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a70d1d54c74fc38bc23039587fddc5f7') in 0.0181786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_185.asset
+  artifactKey: Guid(069d630d776f93b4ebf95ef3a9673faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_185.asset using Guid(069d630d776f93b4ebf95ef3a9673faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a712894010edc33002e58bd4f148949a') in 0.0092093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_189.asset
+  artifactKey: Guid(ae251cb929ff0bb4aae32d76e1c7a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_189.asset using Guid(ae251cb929ff0bb4aae32d76e1c7a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078eabd22e8e5be9c6d2728b7578c625') in 0.0083776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_166.asset
+  artifactKey: Guid(32d404210fc31a14ca5176251ffa9755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_166.asset using Guid(32d404210fc31a14ca5176251ffa9755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76487f1602b00eb6c31269d3b0983be7') in 0.0187948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_138.asset
+  artifactKey: Guid(10a1ac7ab29cb4b45bca0037ab461d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_138.asset using Guid(10a1ac7ab29cb4b45bca0037ab461d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab615005edb109bcdf55c6a67a1f10f') in 0.0086011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art and everything nice/Tilesets/Tiles_95.asset
+  artifactKey: Guid(7aca656bd0d69f34c9de63b4120508b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Tiles_95.asset using Guid(7aca656bd0d69f34c9de63b4120508b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e37d31749578296c4113fd8ae30c3e') in 0.0080011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 713.908975 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons.png
+  artifactKey: Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons.png using Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5490d867743422a6c9dcce30d4ae4527') in 0.0209895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.901494 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons.png
+  artifactKey: Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons.png using Guid(95e5d6e7c99f630419fa1ad6c4b29f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df0d2a4d6b3cdae153e85d6513a13f76') in 0.0999397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.810620 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons_1.asset
+  artifactKey: Guid(e2836a5790dc6e94a9361ee63e888e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons_1.asset using Guid(e2836a5790dc6e94a9361ee63e888e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94eab57fffcc3302fc4b02487455deb4') in 0.0191444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons_6.asset
+  artifactKey: Guid(d0490b83d6f51434b8ec9d1e32db0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons_6.asset using Guid(d0490b83d6f51434b8ec9d1e32db0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fb56bc7f7eec9b7a926cbbac3182586') in 0.0215254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons_5.asset
+  artifactKey: Guid(433780f8af790fb428d06af288bab06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons_5.asset using Guid(433780f8af790fb428d06af288bab06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407f122e85db6888c19574529ddeee59') in 0.0173905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/art and everything nice/Tilesets/Icons_3.asset
+  artifactKey: Guid(5e87e54dd845b564d8e6e9ea7d3641b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art and everything nice/Tilesets/Icons_3.asset using Guid(5e87e54dd845b564d8e6e9ea7d3641b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2064c2722bd851d74f0b31fef55135a0') in 0.0191543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
