@@ -6,6 +6,7 @@ public class Window_Controller : MonoBehaviour
     public bool isInWindow;
     public GameObject appWindow;
     bool isOpen;
+    public bool isWindow;
     BoxCollider2D windowCollider;
 
     void Start()
@@ -16,7 +17,7 @@ public class Window_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Walkthrough();
+        if(isWindow) Walkthrough();
     }
 
     void Walkthrough()

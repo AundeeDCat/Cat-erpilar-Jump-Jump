@@ -58,7 +58,7 @@ public class Trigger_Manager : MonoBehaviour
         // This code is for other interactables in the game
         if (other.tag == "Player" && isTrap)
         {
-            Player_Controller.Death(); // For the animation
+            other.GetComponent<Animator>().SetTrigger("Dies");
             StartCoroutine(RespawnDelay(resDelay, other));
         }
     }
@@ -72,11 +72,22 @@ public class Trigger_Manager : MonoBehaviour
         }
     }
 
-    float resDelay = 2;
+    float resDelay = 0.5f;
     IEnumerator RespawnDelay(float wait, Collider2D player)
     {
         yield return new WaitForSeconds(wait);
         player.transform.position = Checkpoint_Manager.curr_checkpoint;
-        Player_Controller.isDead = false;
+
+        StartCoroutine(Respawn(2f, player));
+    }
+
+    IEnumerator Respawn(float wait, Collider2D player)
+    {
+        player.gameObject.SetActive(false);
+
+        yield return new WaitForSeconds(wait);
+        
+        player.gameObject.SetActive(true);
+        player.transform.position = Checkpoint_Manager.curr_checkpoint;
     }
 }

@@ -6,10 +6,14 @@ using System.Collections.Generic;
 public class Player_Controller : MonoBehaviour
 {
 
+    Animator playerAnimation;
+    SpriteRenderer sprite;
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         player_collider = this.GetComponent<CapsuleCollider2D>();
+        playerAnimation = this.GetComponent<Animator>();
+        sprite = this.GetComponent<SpriteRenderer>();
     }
 
     
@@ -23,7 +27,6 @@ public class Player_Controller : MonoBehaviour
             Dash();
             Crawl();
         }
-    
     }
 
 
@@ -31,14 +34,29 @@ public class Player_Controller : MonoBehaviour
     Rigidbody2D rb;
     float x_dir;
     float x_speed = 10;
-    
+
     void X_Move()
     {
-        if (Input.GetKey(KeyCode.A)) x_dir = -1;
-        else if (Input.GetKey(KeyCode.D)) x_dir = 1;
+        if (Input.GetKey(KeyCode.A))
+        {
+            x_dir = -1;
+            sprite.flipX = false;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            x_dir = 1;
+            sprite.flipX = true;
+        }
         else x_dir = 0;
 
         rb.linearVelocityX = x_dir * x_speed * dash_multiplier * crawl_multiplier;
+
+        playerAnimation.SetFloat("x_velocity", Mathf.Abs(rb.linearVelocityX));
+        playerAnimation.SetFloat("y_velocity", rb.linearVelocityY);
+        playerAnimation.SetBool("isDashing", isDashing);
+
+        if (crawl_multiplier == 0.5f) playerAnimation.SetBool("isCrawling", true);
+        else playerAnimation.SetBool("isCrawling", false);
     }
 
 
@@ -97,29 +115,23 @@ public class Player_Controller : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             crawl_multiplier = 0.5f;
-            player_collider.size = new Vector2(player_collider.size.x, 1);
+            player_collider.size = new Vector2(player_collider.size.x, 0.5f);
+            player_collider.offset = new Vector2(0, -0.25f);
         }
 
         else if (Input.GetKeyUp(KeyCode.S) && !isTouchCeiling)
         {
             crawl_multiplier = 1;
-            player_collider.size = new Vector2(player_collider.size.x, 2);
+            player_collider.size = new Vector2(player_collider.size.x, 1);
+            player_collider.offset = new Vector2(0, 0);
         }
 
         else if (!isTouchCeiling)
         {
             crawl_multiplier = 1;
-            player_collider.size = new Vector2(player_collider.size.x, 2);
+            player_collider.size = new Vector2(player_collider.size.x, 1);
+            player_collider.offset = new Vector2(0, 0);
         }
     }
 
-
-    
-
-
-    public static void Death()
-    {
-        isDead = true;
-        Debug.Log("DEATH SCREEN");
-    }
 }
