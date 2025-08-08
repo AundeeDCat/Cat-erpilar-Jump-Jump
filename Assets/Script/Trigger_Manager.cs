@@ -17,6 +17,7 @@ public class Trigger_Manager : MonoBehaviour
         if (other.tag == "Goalpoint" && isPlayerFeet)
         {
             Debug.Log("End of Level!"); // Place Transition or Next Scene Here
+            Scene_Manager.NextScene();
         }
 
         if (other.tag == "Platform" && isPlayerHead)

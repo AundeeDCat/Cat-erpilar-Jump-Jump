@@ -119,14 +119,7 @@ public class Player_Controller : MonoBehaviour
             player_collider.offset = new Vector2(0, -0.25f);
         }
 
-        else if (Input.GetKeyUp(KeyCode.S) && !isTouchCeiling)
-        {
-            crawl_multiplier = 1;
-            player_collider.size = new Vector2(player_collider.size.x, 1);
-            player_collider.offset = new Vector2(0, 0);
-        }
-
-        else if (!isTouchCeiling)
+        else if (Input.GetKeyUp(KeyCode.S))
         {
             crawl_multiplier = 1;
             player_collider.size = new Vector2(player_collider.size.x, 1);
