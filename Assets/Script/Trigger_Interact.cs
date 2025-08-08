@@ -1,4 +1,4 @@
-using UnityEditor.PackageManager.UI;
+//using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class Trigger_Managert : MonoBehaviour
