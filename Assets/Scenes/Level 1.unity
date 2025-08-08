@@ -14751,6 +14751,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5041242819570010182, guid: 4e036a954cb011b44a962588b32d522b, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 63e96a427c8468d41a18f5dec7f82a23, type: 3}
+    - target: {fileID: 5041242819570010182, guid: 4e036a954cb011b44a962588b32d522b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 63e96a427c8468d41a18f5dec7f82a23, type: 3}
     - target: {fileID: 6760927284093132859, guid: 4e036a954cb011b44a962588b32d522b, type: 3}
       propertyPath: m_Name
       value: Scene Manager
